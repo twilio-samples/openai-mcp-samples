@@ -10,15 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/twilio-labs/mcp-samples.git"
   },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "license": "MIT",
+  "author": "Twilio",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "dependencies": {
+    "dotenv": "^16.5.0",
     "openai": "^4.100.0",
     "twilio": "^5.6.1"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
   }
 }

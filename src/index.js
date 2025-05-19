@@ -6,6 +6,7 @@ dotenv.config();
 
 const { AUTH_TOKEN, MCP_SERVER, OPEN_API_KEY } = process.env;
 
+// For list of services, see ...
 const url = `${MCP_SERVER}/mcp?services=Studio&services=PhoneNumbers`;
 const signature = twilio.getExpectedTwilioSignature(AUTH_TOKEN, url, {});
 
