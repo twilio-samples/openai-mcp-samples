@@ -1,6 +1,6 @@
 # MCP Samples
 
-This repo contains sample code for using OpenAI's Responsive API and MCP server.
+This repo contains sample code for using OpenAI's Responses API and MCP server.
 
 ## Pre-requisites
 
