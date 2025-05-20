@@ -4,7 +4,7 @@ This repo contains sample code for using OpenAI's Responses API and MCP server.
 
 ## Pre-requisites
 
-Before you start, make sure you already have deployed Twilio MCP Server to your account. For more information, see
+Before you start, make sure you already have deployed Twilio MCP Server to your account. For more information, see [Twilio MCP Function Templates](https://github.com/twilio-labs/function-templates/tree/main/mcp-server).
 
 ## Usage
 
