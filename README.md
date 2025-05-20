@@ -14,3 +14,7 @@ This code sample is using OpenAI's Response API and support for remote MCP serve
 2) Replace your Twilio `AUTH_TOKEN` and generate a new `OPENAI_API_KEY`
 3) Copy the Twilio Function domain that is hosting your Twilio MCP server
 4) Make any changes you want to the `index.js` prompt and run `npm start`
+
+## Security Recommandations
+
+To ensure privacy and avoid cross server leakage, do not use other MCP servers in conjunction with your Twilio MCP server.
